@@ -7,6 +7,7 @@ gem 'rails', '3.2.13'
 
 group :development do
 	gem 'sqlite3'
+	gem 'rspec-rails'
 end
 
 group :production do
@@ -24,6 +25,12 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
+
+group :test do
+	gem 'rspec'
+	gem 'webrat'
+end
+
 
 gem 'jquery-rails'
 
